@@ -1,0 +1,23 @@
+{
+    "name": "@workspace/database",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {},
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "class-validator": "^0.13.2",
+        "graphql": "15",
+        "mysql": "^2.18.1",
+        "reflect-metadata": "^0.1.13",
+        "type-graphql": "^1.1.1",
+        "typeorm": "^0.3.6",
+        "@workspace/shared": "workspace:*"
+    },
+    "devDependencies": {
+        "@types/jsonwebtoken": "^8.5.8",
+        "@types/micro-cors": "^0.1.2",
+        "@types/node": "17.0.41"
+    }
+}

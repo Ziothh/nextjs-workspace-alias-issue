@@ -1,0 +1,33 @@
+{
+    "name": "@workspace/backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@workspace/database": "workspace:*",
+        "@workspace/shared": "workspace:*",
+        "apollo-server-micro": "^3.8.2",
+        "bcryptjs": "^2.4.3",
+        "class-validator": "^0.13.2",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "graphql": "15",
+        "jsonwebtoken": "^8.5.1",
+        "micro": "^9.3.4",
+        "micro-cors": "^0.1.1",
+        "type-graphql": "^1.1.1",
+        "typeorm": "^0.3.6"
+    },
+    "devDependencies": {
+        "@types/bcryptjs": "^2.4.2",
+        "@types/cookie-parser": "^1.4.3",
+        "@types/cors": "^2.8.12",
+        "@types/node": "17.0.41"
+    }
+}

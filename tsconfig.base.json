@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "module": "ESNext",
+        "lib": ["esnext", "ESNext.AsyncIterable"],
+        "allowJs": false,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": false,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "incremental": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "emitDecoratorMetadata": true,
+        "baseUrl": ".",
+        "paths": {
+            // "@config/*": ["backend/config/*"],
+            // "@constants/*": ["shared/constants/*"],
+            // "@database/*": ["./database/*"],
+            // "@components/*": ["./components/*"],
+            // "@scss/*": ["./scss/*"],
+            // "@myTypes/*": ["./myTypes/*"],
+            // "@helpers/*": ["./helpers/*"],
+            // "@hooks/*": ["./hooks/*"],
+            // "@context/*": ["./context/*"],
+            // "@node_modules/*": ["./node_modules/*"]
+        }
+    },
+    "include": [""],
+    "exclude": ["node_modules", "_*"]
+}

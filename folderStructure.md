@@ -1,0 +1,14 @@
+Root
+ - database
+   - models
+   - resolvers
+   - graphql
+ - backend
+   - middlewares
+ - frontend
+   - pages
+   - components
+   - public
+   - generated
+     - graphql
+ - shared
